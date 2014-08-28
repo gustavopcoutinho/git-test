@@ -29,6 +29,5 @@ else{
 }
 
 ?>
-    <body>
-    <p>yo</p>  </body>
+   
 </html>
