@@ -1,4 +1,7 @@
-<?php
+<html>
+    <head> 4.1 </head>
+    <body>
+        <?php
 $p1=4.8;
 $m1=7;
 $m2=6;
@@ -26,3 +29,5 @@ else{
 }
 
 ?>
+</body>  
+</html>
