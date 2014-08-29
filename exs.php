@@ -15,7 +15,7 @@ table{border-collapse:collapse;}
            <table> 
                
                <?php
-               for ($linha=1;$linha<10;$linha++){
+               for ($linha=1;$linha<7;$linha++){
                    if ($linha%2==0){
                        $class="par";
                    }
