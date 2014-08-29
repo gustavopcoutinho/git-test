@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+
 <html>
-    <head> 4.1 </head>
-    
-        <?php
+    <head> <title>4.1</title> </head>
+    <body>
+          <p>Exercício 4.1</p>      <?php
 $p1=4.8;
 $m1=7;
 $m2=6;
@@ -29,5 +31,7 @@ else{
 }
 
 ?>
+    </body>
+
    
 </html>
