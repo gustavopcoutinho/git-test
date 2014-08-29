@@ -26,10 +26,24 @@ table{border-collapse:collapse;}
                }
                
 ?>
-
-
-            
-            
-           </table>
+               </table>
+               <p>ex. 2</p>
+        <?php
+        $num=13;
+        for($i=2;$i<$num;$i++){
+        if ($num%$i==0){
+        $tipo= "Não é primo";
+            }
+            else{
+                $tipo="Primo";
+            }
+        }
+        echo "$tipo";
+        ?>      
+           <?php
+           
+        
+           ?> 
+           
            </body>
         </html>
