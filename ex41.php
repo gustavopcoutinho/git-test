@@ -28,7 +28,7 @@ else{
     else {
         echo " Reprovado.";
     }
-}
+}     
 
 ?>
     </body>
