@@ -40,8 +40,18 @@ table{border-collapse:collapse;}
         }
         echo "$tipo";
         ?>      
+               <p>ex. 3</p>
            <?php
-           
+           $qtd=5;
+           $a=0;
+           $b=1;
+           for($i=1;$i<$qtd;$i++){
+           $soma=$a+$b;
+           $a=$b;
+           $b=$soma;
+          echo "$soma";
+           }
+          
         
            ?> 
            
