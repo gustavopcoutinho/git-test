@@ -14,7 +14,8 @@ table{border-collapse:collapse;}
         <p>ex. 1</p>
            <table> 
                
-               <?php
+               
+               <tr.<?php
                for ($linha=1;$linha<7;$linha++){
                    if ($linha%2==0){
                        $class="par";
@@ -22,10 +23,10 @@ table{border-collapse:collapse;}
                    else{
                        $class="impar";
                    }
-                   echo "<tr class=$class><td>id</td><td>Nome</td><td>desc</td></tr>";
+                   echo '$class';
                }
                
-?>
+?>><td>id</td><td>Nome</td><td>desc</td></tr>
                </table>
                <p>ex. 2</p>
         <?php
